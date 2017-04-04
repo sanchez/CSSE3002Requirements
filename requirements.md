@@ -57,13 +57,16 @@ This document provides the requirement specification for an eVisa processing sys
 
 \newpage
 # Actor Descriptions
-|  **Actor Name**   |                                                                                                                                                                                                                         **Description**                                                                                                                                                                                                                         |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Visa Processor    | Less common user but more frequent and with higher permissions. These users will be reviewing data entered by the Visa Applicant users and approve/deny visas.                                                                                                                                                                                                                                                                                                  |
-| External Verifier | Users who are not responsible for processing applications, nor under the responsibility of a Manager, but have can have significant information influencing a Visa Processor’s decision. A Visa Processor can refer an application to an External Verifier to receive a recommendation. Examples of External Verifiers are members of the AFP or FBI, medical doctors responsible for examinations, or an employer verifying that the applicant is an employee. |
-| Manager           | Manages a group of Visa Processors by creating Visa Processor accounts with necessary restrictions and monitors processor actions and performance.                                                                                                                                                                                                                                                                                                              |
-| Policy Manager    | Rare users, responsible for updating system configuration to reflect changes in visa policy. E.g. introducing a new type of visa, changing the list of countries that automatically require extra attention.                                                                                                                                                                                                                                                    |
-| Visa Applicant    | The person who apply visa through the system.                                                                                                                                                                                                                                                                                                                                                                                                                   |
+\begin{center}
+\begin{tabular}{p{3cm}p{11cm}}
+\hline\textbf{Actor Name} & \textbf{Description} \\\hline
+Visa Processor & Less common user but more frequent and with higher permissions. These users will be reviewing data entered by the Visa Applicant users and approve/deny visas.\\
+External Verifier & Users who are not responsible for processing applications, nor under the responsibility of a Manager, but have can have significant information influencing a Visa Processor’s decision. A Visa Processor can refer an application to an External Verifier to receive a recommendation. Examples of External Verifiers are members of the AFP or FBI, medical doctors responsible for examinations, or an employer verifying that the applicant is an employee.\\
+Manager & Manages a group of Visa Processors by creating Visa Processor accounts with necessary restrictions and monitors processor actions and performance.\\
+Policy Manager & Rare users, responsible for updating system configuration to reflect changes in visa policy. E.g. introducing a new type of visa, changing the list of countries that automatically require extra attention.\\
+Visa Applicant & The person who apply visa through the system \\\hline
+\end{tabular}
+\end{center}
 
 \newpage
 # Use Case Summaries
