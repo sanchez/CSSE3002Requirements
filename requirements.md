@@ -847,7 +847,7 @@ endif
 # Glossary
 |    **Term**    |                                                                              **Definition**                                                                              |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Appeal         | A process by which a case is brought before an authority for review of the decision of a lower authority                                                                 |
+| Appeal         | A process by which a case is brought before an authority for review of the decision of a lower authority [@AppealDef]                                                    |
 | Application    | The collection of information provided by a Visa Application when they make a request for a Visa at the start fo the process                                             |
 | Approve / Deny | An Approved application grants a visa to the applicant. A Denied application likewise means the applicant does not receive a visa. This is the final step of the process |
 | Guideline      | A general set of rules and advice for applicant to understand visa related enquiry                                                                                       |
@@ -859,4 +859,7 @@ endif
 | Update         | System send input data to the database                                                                                                                                   |
 | User           | People who interact with the system -- Visa Applicant, Visa Processor, External Verifier, System Admin, Manager, Policy Manager and Data Analyst                         |
 | Visa Status    | To show the current applicant visa condition if its processing, denied or approved                                                                                       |
-| Visa           | Conditional authorization granted by a country to a foreigner that allows them to enter and remain within the country for a specified amount of time                     |
+| Visa           | Conditional authorization granted by a country to a foreigner that allows them to enter and remain within the country for a specified amount of time [@VisaDef]                     |
+
+\newpage
+# References
