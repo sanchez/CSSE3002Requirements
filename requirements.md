@@ -723,3 +723,121 @@ Visa Applicant & The person who apply visa through the system \\\hline
 |                    | 4.2 Provide possible solution method for manager (e.g. Retry, contact system administrator with error message) |
 
 : Alternative 1 -- The system is unable to remove the account at step 4
+
+\newpage
+# Activity Diagrams
+## External Verification
+\uml(ADExternalVerification {width=75%})(Provide External Verification)
+~~~
+@startuml
+
+(*) --> "Retrieve list of available applications"
+--> "Select an application"
+if "Can verification be provided?" then
+    if "Check for available data" then
+        --> [Data Available] "Add Comments" as A1
+        --> "Add Supporting Documentation"
+        --> "Return  with verification"
+        --> (*)
+    else
+        --> [Data Unavailable] "Gather Data"
+        --> A1
+    endif
+else
+    --> [No] "Return without verification"
+    --> (*)
+endif
+
+@enduml
+~~~
+
+## Visa Applicant
+\uml(ADVisaApplicant {width=100%})(Visa Applicant)
+~~~
+@startuml
+
+(*) --> ===B1===
+
+===B1=== --> "View Guideline"
+===B1=== --> "New application"
+--> "Fill up personal detail" as A1
+--> "Upload required document"
+--> "Submit application"
+--> "View Application Status" as A2
+
+if "" then
+    -->[approved] (*)
+else
+    -->[denied] "Appeal Application"
+    --> (*)
+endif
+
+===B1=== --> "Update application"
+--> A1
+===B1=== --> A2
+
+@enduml
+~~~
+
+## Create Visa Processor Account
+\uml(ADCreateVisa {width=100%})(Create Visa Processor Account)
+~~~
+@startuml
+
+(*) --> "Click 'Create Processor' Button"
+--> "Fill in Processor's Details in Form"
+--> "Submit Form" as A1
+if "All Required Details Filled in?" then
+    --> ===B1===
+    ===B1=== -->[Account Created] "Dismiss Message that Email Sent to Processor"
+    --> (*)
+    ===B1=== -->[Account Not Created] "Contact System Administrator with Error"
+    --> (*)
+else
+    -->[No] "Fill in Highlighted Fields"
+    --> A1
+endif
+
+@enduml
+~~~
+
+## Remove Visa Processor Account
+\uml(ADRemoveVisa {width=100%})(Remove Visa Processor Account)
+~~~
+@startuml
+
+(*) --> "Click 'Remove' Button for Processor"
+if "" then
+    -->[Account Removed] "Dismiss Message that Processor Removed"
+    --> (*)
+else
+    -->[Account Not Removed] "Contact System Administrator with Error"
+    --> (*)
+endif
+
+@enduml
+~~~
+
+## Edit Visa Processor Account
+\uml(ADEditVisa {width=100%})(Edit Visa Processor Account)
+~~~
+@startuml
+
+(*) --> "Click 'Edit' Button for Processor Account"
+--> "Update the Processor Account Options Form"
+--> "Submit Form" as A1
+if "All Options are Valid?" then
+    if "" then
+        --> [Account Updated] "Dismiss Message that Processor Account Updated"
+        --> (*)
+    else
+        --> [Account Not Updated] "Contact System Administrator with Error"
+        --> (*)
+    endif
+else
+    -up->[No] "Edit the Highlighted Fields"
+    --> A1
+endif
+
+@enduml
+~~~
