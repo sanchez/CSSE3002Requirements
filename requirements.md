@@ -19,7 +19,7 @@ This document provides the requirement specification for an eVisa processing sys
 \newpage
 # Use Case Packages
 ## Package Diagram
-<!-- TODO: Add image here -->
+![Package Diagram](PackageDiagram.png){width=100%}
 
 ## Package Descriptions
 |   **Package Name**    |                                    **Description**                                     |
@@ -34,26 +34,26 @@ This document provides the requirement specification for an eVisa processing sys
 
 \newpage
 # Use Case Diagrams
-## Visa Processor
-<!-- TODO: Add image here -->
+## Processing
+![Processing](Processor.png){width=100%}
 
 ## External Verification
-<!-- TODO: Add image here -->
+![External Verification](ExternalVerifier.png){width=100%}
 
 ## System Configuration
-<!-- TODO: Add image here -->
+![System Configuration](PolicyManager.png){width=100%}
 
 ## Registration
-<!-- TODO: Add image here -->
+![Registration](Registration.png){width=100%}
 
 ## Access Control
-<!-- TODO: Add image here -->
+![Access Control](AccessControl.png){width=100%}
 
 ## Data Gathering
-<!-- TODO: Add image here -->
+![Data Gathering](DataGathering.png){width=100%}
 
 ## Approval
-<!-- TODO: Add image here -->
+![Approval](Approval.png){width=100%}
 
 \newpage
 # Actor Descriptions
