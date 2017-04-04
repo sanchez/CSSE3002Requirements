@@ -153,6 +153,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 1 -- Re-assign Visa at step 3
 
+\newpage
 ## Re-assign to Group
 |   **Version:** 0.1   |                                                                    **Date:** 2/4/17                                                                    |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -181,6 +182,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 1 -- The network transmission fails at step 1
 
+\newpage
 ## Send portion to external verifier
 |   **Version:** 0.1   |                                                                         **Date:** 2/4/17                                                                          |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -201,6 +203,7 @@ This document provides the requirement specification for an eVisa processing sys
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------- |
 | 1. User selects data to be forwarded | 2. Packages the information into an exportable format and sends the information to an external source |
 
+\newpage
 ## View referred application
 | **Version:** Initial Version |                                               **Date:** 2/4/17                                               |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -237,6 +240,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 2 -- The application has already been approved/denied at step 1
 
+\newpage
 ## Comment on referred application
 | **Version:** Initial Version |                                                  **Date:** 2/4/17                                                  |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -273,6 +277,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 2 -- The application has already been approved/denied
 
+\newpage
 ## Return referred application that cannot be verified
 | **Version:** Initial Version |                                                        **Date:** 2/4/17                                                        |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -310,6 +315,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 2 -- The application has already been approved/denied at step 1
 
+\newpage
 ## Return referred application that has been verified
 | **Version:** Initial Version |                                                          **Date:** 2/4/17                                                          |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -347,6 +353,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 2 -- The application has already been approved/denied
 
+\newpage
 ## View current system configuration
 | **Version:** Initial Version |                     **Date:** 2/4/17                     |
 | ---------------------------- | -------------------------------------------------------- |
@@ -382,6 +389,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 2 -- A concurrent modification has occurred at step 1
 
+\newpage
 ## Update policy rules
 | **Version:** Initial Version |                               **Date:** 2/4/17                               |
 | ---------------------------- | ---------------------------------------------------------------------------- |
@@ -419,6 +427,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 2 -- A concurrent modification has occurred
 
+\newpage
 ## Registration -- View Guideline
 | **Version:** Initial Version |                        **Date:** 2/4/17                        |
 | ---------------------------- | -------------------------------------------------------------- |
@@ -441,6 +450,7 @@ This document provides the requirement specification for an eVisa processing sys
 | ---------------------------------------- | ------------------------------- |
 | 1. Visa Applicant want to view guideline | 2. Display available guidelines |
 
+\newpage
 ## Registration -- Visa Registration
 | **Version:** Initial Version |                                    **Date:** 2/4/17                                    |
 | ---------------------------- | -------------------------------------------------------------------------------------- |
@@ -470,6 +480,7 @@ This document provides the requirement specification for an eVisa processing sys
 |                    | 2.1 Update all input and upload before it's closed |
 |                    | 2.2 Application is not yet submitted               |
 
+\newpage
 ## Registration -- Update Application
 | **Version:** Initial Version |                                                   **Date:** 2/4/17                                                    |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -508,6 +519,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 2 -- Visa Applicant close the system without submitting at step 1
 
+\newpage
 ## Registration -- View Visa Status
 | **Version:** Initial Version |                                                                 **Date:** 2/4/17                                                                  |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -539,6 +551,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 1 -- Visa applicant's visa was denied at step 1
 
+\newpage
 ## Registration -- Appeal Application
 | **Version:** Initial Version |                                                                                              **Date:** 2/4/17                                                                                               |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -570,6 +583,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 1 -- Visa applicant's application cannot be appealed at step 1
 
+\newpage
 ## Registration -- Edit Update Recieving Methods
 | **Version:** Initial Version |                          **Date:** 2/4/17                           |
 | ---------------------------- | ------------------------------------------------------------------- |
@@ -602,6 +616,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 1 -- Visa applicant did not choose any way of receiving update
 
+\newpage
 ## Create Visa Processor Accounts
 | **Version:** Initial Version |                                **Date:** 2/4/17                                 |
 | ---------------------------- | ------------------------------------------------------------------------------- |
@@ -635,6 +650,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 1 -- System is unable to create an account at step 3
 
+\newpage
 ## Remove Visa Processor Accounts
 | **Version:** Initial Version |                                                                        **Date:** 2/4/17                                                                        |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -673,6 +689,7 @@ This document provides the requirement specification for an eVisa processing sys
 
 : Alternative 2 -- The system is unable to remove the account at step 4
 
+\newpage
 ## Edit Visa Processor Accounts
 | **Version:** Initial Version |                                **Date:** 2/4/17                                 |
 | ---------------------------- | ------------------------------------------------------------------------------- |
